@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    background-color: rgb(59, 59, 59);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#header img {
+    width: 150px;
+}
+
+#header h1 {
+    margin-right: 250px;
+    font-size: 28px;
+    color: #fff;
+}
+
+#header a {
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 40px;
+    color: rgb(121, 121, 121);
+}
+
+#header a:hover {
+    color: white;
+}
+
+#header a span {
+    color: #37a037;
+}
+
+#header a span:hover {
+    color: #fff;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.main-content img {
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.3);
+}
+
+.main-content h2 {
+    color: #fff;
+    text-align: right;
+    padding-top: 400px;
+    padding-right: 180px;
+}
+
+.main-content p {
+    color: #fff;
+    text-align: right;
+    padding-right: 180px;
+    margin-top: 15px;
+    padding-left: 900px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.main-content .buttons {
+    margin-left: 950px;
+    padding: 10px;
+}
+
+.main-content .btn-outline-primary {
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+
+.main-content .btn-outline-primary:hover {
+    color: black !important;
+    background-color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+.main-content .btn-primary {
+    background-color: #37a037 !important;
+    border: 1px solid #37a037 !important;
+    font-weight: bold;
+}
+
+.main-content .btn-primary:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #fff !important;
+}
+
+#oradores .title h3 {
+    text-align: center;
+    margin-top: 200px;
+    color: gray;
+}
+
+#oradores .title span {
+    color: rgb(54, 53, 53);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px !important;
+    margin-top: 50px !important;
+    margin-left: 45px !important;
+}
+
+.card-1 {
+    margin-left: 300px !important;
+    margin-right: 50px !important;
+    width: 15rem !important;
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+}
+
+.card-2 {
+    margin-right: 50px !important;
+    width: 15rem !important;
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+}
+
+.card-3 {
+    width: 15rem !important;
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+}
+
+.cards .btn-primary1 {
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid yellow;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards .btn-primary2 {
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards .btn-primary3 {
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid gray;
+    background-color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards .btn-primary4 {
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid red;
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#lugar-fecha {
+    margin-top: 50px;
+}
+
+#lugar-fecha .left {
+    background: url(/img/honolulu.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 500px;
+}
+
+#lugar-fecha .right {
+    background-color: rgb(59, 59, 59);
+    width: 50%;
+    height: 500px;
+    padding-top: 20px;
+}
+
+#lugar-fecha {
+    display: flex;
+}
+
+#lugar-fecha .right h3 {
+    color: #fff;
+    padding-left: 15px;
+}
+
+#lugar-fecha .right p {
+    color: #fff;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+#lugar-fecha .right .btn-primary5 {
+    color: #fff;
+    border: 1px solid #fff !important;
+    margin-left: 15px !important;
+}
+
+#lugar-fecha .right .btn-primary5:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+#conv-orador {
+    margin-top: 45px;
+}
+
+#conv-orador .formulario h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#conv-orador .formulario u {
+    text-decoration: none;
+    border-bottom: 3px dotted #000;
+}
+
+#conv-orador .formulario span {
+    font-size: 35px;
+}
+
+#conv-orador .formulario h4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#conv-orador form {
+    width: 750px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 7px;
+}
+
+#form .mid-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#form .mid-row input {
+    width: 48%;
+    border: 1px solid black;
+}
+
+#conv-orador textarea {
+    border: 1px solid black;
+}
+
+#conv-orador input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+#conv-orador textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#conv-orador form p {
+    color: rgb(54, 53, 53);
+}
+
+#conv-orador .btn-primary6 {
+    background: #37a037;
+    color: black;
+    width: 100% !important;
+}
+
+#conv-orador .btn-primary6:hover {
+    background-color: #fff;
+}
+
+#footer {
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(25, 37, 102), rgb(82, 103, 220));
+}
+
+#footer p {
+    font-size: 15px;
+    padding-right: 15px;
+    color: #fff;
+    display: inline-flex;
+    margin-right: 50px;
+    margin-left: 50px;
+}
