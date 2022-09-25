@@ -191,7 +191,7 @@ body {
 }
 
 #lugar-fecha .left {
-    background: url(/img/honolulu.jpg);
+    background: url(./img/honolulu.jpg);
     background-size: cover;
     background-position: center;
     width: 50%;
